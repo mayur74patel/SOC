@@ -1,0 +1,13 @@
+C:\Users\HP\source\repos\IBlogService\IBlogService\obj\Debug\IBlogService.csprojAssemblyReference.cache
+C:\Users\HP\source\repos\IBlogService\IBlogService\obj\Debug\IBlogService.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\IBlogService\IBlogService\bin\Debug\IBlogService.dll.config
+C:\Users\HP\source\repos\IBlogService\IBlogService\bin\Debug\IBlogService.dll
+C:\Users\HP\source\repos\IBlogService\IBlogService\bin\Debug\IBlogService.pdb
+C:\Users\HP\source\repos\IBlogService\IBlogService\obj\Debug\IBlogService.dll
+C:\Users\HP\source\repos\IBlogService\IBlogService\obj\Debug\IBlogService.pdb
+C:\Users\Mitul\Desktop\IBlogService\IBlogService\bin\Debug\IBlogService.dll.config
+C:\Users\Mitul\Desktop\IBlogService\IBlogService\bin\Debug\IBlogService.dll
+C:\Users\Mitul\Desktop\IBlogService\IBlogService\bin\Debug\IBlogService.pdb
+C:\Users\Mitul\Desktop\IBlogService\IBlogService\obj\Debug\IBlogService.csprojResolveAssemblyReference.cache
+C:\Users\Mitul\Desktop\IBlogService\IBlogService\obj\Debug\IBlogService.dll
+C:\Users\Mitul\Desktop\IBlogService\IBlogService\obj\Debug\IBlogService.pdb
