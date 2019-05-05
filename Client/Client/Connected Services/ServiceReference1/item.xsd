@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/IBlogService" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/IBlogService" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfMyBlog">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MyBlog" nillable="true" type="tns:MyBlog" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMyBlog" nillable="true" type="tns:ArrayOfMyBlog" />
+  <xs:complexType name="MyBlog">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="blog_date" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="blog_details" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="blog_subject" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="blogger_name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="id" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MyBlog" nillable="true" type="tns:MyBlog" />
+  <xs:complexType name="ArrayOfMyUser">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MyUser" nillable="true" type="tns:MyUser" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMyUser" nillable="true" type="tns:ArrayOfMyUser" />
+  <xs:complexType name="MyUser">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="id" type="xs:int" />
+      <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="username" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MyUser" nillable="true" type="tns:MyUser" />
+</xs:schema>
